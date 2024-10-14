@@ -1,0 +1,1501 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Google Play Store)' inline='true' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Google Play Store' name='excel-direct.1y43dm41spluqr1buaweu1ch8x05'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/itsmy/Documents/My Projects/Google Play Store/Google Play Store.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1y43dm41spluqr1buaweu1ch8x05' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:M9247:no:A1:M9247:0' header='yes' outcome='2'>
+            <column datatype='string' name='App' ordinal='0' />
+            <column datatype='string' name='Category' ordinal='1' />
+            <column datatype='real' name='Rating' ordinal='2' />
+            <column datatype='integer' name='Reviews' ordinal='3' />
+            <column datatype='real' name='Size' ordinal='4' />
+            <column datatype='integer' name='Installs' ordinal='5' />
+            <column datatype='string' name='Type' ordinal='6' />
+            <column datatype='real' name='Price' ordinal='7' />
+            <column datatype='string' name='Content_Rating' ordinal='8' />
+            <column datatype='string' name='Genres' ordinal='9' />
+            <column datatype='string' name='Last_Updated' ordinal='10' />
+            <column datatype='string' name='Current_Ver' ordinal='11' />
+            <column datatype='string' name='Android_Ver' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1y43dm41spluqr1buaweu1ch8x05' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:M9247:no:A1:M9247:0' header='yes' outcome='2'>
+            <column datatype='string' name='App' ordinal='0' />
+            <column datatype='string' name='Category' ordinal='1' />
+            <column datatype='real' name='Rating' ordinal='2' />
+            <column datatype='integer' name='Reviews' ordinal='3' />
+            <column datatype='real' name='Size' ordinal='4' />
+            <column datatype='integer' name='Installs' ordinal='5' />
+            <column datatype='string' name='Type' ordinal='6' />
+            <column datatype='real' name='Price' ordinal='7' />
+            <column datatype='string' name='Content_Rating' ordinal='8' />
+            <column datatype='string' name='Genres' ordinal='9' />
+            <column datatype='string' name='Last_Updated' ordinal='10' />
+            <column datatype='string' name='Current_Ver' ordinal='11' />
+            <column datatype='string' name='Android_Ver' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M9247:no:A1:M9247:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>App</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[App]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>App</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reviews]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Reviews</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Size</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Size]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Size</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Installs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Installs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Installs</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Content_Rating</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Content_Rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Content_Rating</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genres</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Genres]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Genres</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last_Updated</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Last_Updated]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Last_Updated</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current_Ver</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Current_Ver]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Current_Ver</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Android_Ver</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Android_Ver]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Android_Ver</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Android Ver' datatype='string' name='[Android_Ver]' role='dimension' type='nominal' />
+      <column caption='Million' datatype='string' name='[Calculation_1347702252129730565]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF SUM([Installs]) &gt;= 1000000000 THEN&#13;&#10;    STR(ROUND(SUM([Installs]) / 1000000000, 2)) + &quot; B&quot;&#13;&#10;ELSE&#13;&#10;    STR(ROUND(SUM([Installs]) / 1000000, 2)) + &quot; M&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Content Rating' datatype='string' name='[Content_Rating]' role='dimension' type='nominal' />
+      <column caption='Current Ver' datatype='string' name='[Current_Ver]' role='dimension' type='nominal' />
+      <column caption='Last Updated' datatype='string' name='[Last_Updated]' role='dimension' type='nominal' />
+      <column aggregation='None' caption='Rating (bin)' datatype='integer' name='[Rating (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-1' formula='[Rating]' peg='0' size='0.5' />
+      </column>
+      <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_6DAC8B237BB04086932255A7B442274D]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/itsmy/AppData/Local/Temp/TableauTemp/#TableauTemp_1iz683s0zgm5b914izbcx1fvnl36.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/20/2024 05:03:07 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>App</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[App]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>App</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5164</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rating</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rating</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reviews</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reviews</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3069</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Size</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Size</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>291</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Installs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Installs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Installs</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Content_Rating</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Content_Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Content_Rating</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Genres</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Genres]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Genres</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>114</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Last_Updated</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Last_Updated]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Last_Updated</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>950</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Current_Ver</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Current_Ver]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Current_Ver</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1551</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Android_Ver</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Android_Ver]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Android_Ver</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_6DAC8B237BB04086932255A7B442274D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='App' />
+        <field-sort-custom-order field='Category' />
+        <field-sort-custom-order field='Rating' />
+        <field-sort-custom-order field='Reviews' />
+        <field-sort-custom-order field='Size' />
+        <field-sort-custom-order field='Installs' />
+        <field-sort-custom-order field='Calculation_1347702252129452036' />
+        <field-sort-custom-order field='Type' />
+        <field-sort-custom-order field='Price' />
+        <field-sort-custom-order field='Content_Rating' />
+        <field-sort-custom-order field='Genres' />
+        <field-sort-custom-order field='Last_Updated' />
+        <field-sort-custom-order field='Current_Ver' />
+        <field-sort-custom-order field='Android_Ver' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Rating (bin)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_6DAC8B237BB04086932255A7B442274D'>
+            <properties context=''>
+              <relation connection='excel-direct.1y43dm41spluqr1buaweu1ch8x05' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:M9247:no:A1:M9247:0' header='yes' outcome='2'>
+                  <column datatype='string' name='App' ordinal='0' />
+                  <column datatype='string' name='Category' ordinal='1' />
+                  <column datatype='real' name='Rating' ordinal='2' />
+                  <column datatype='integer' name='Reviews' ordinal='3' />
+                  <column datatype='real' name='Size' ordinal='4' />
+                  <column datatype='integer' name='Installs' ordinal='5' />
+                  <column datatype='string' name='Type' ordinal='6' />
+                  <column datatype='real' name='Price' ordinal='7' />
+                  <column datatype='string' name='Content_Rating' ordinal='8' />
+                  <column datatype='string' name='Genres' ordinal='9' />
+                  <column datatype='string' name='Last_Updated' ordinal='10' />
+                  <column datatype='string' name='Current_Ver' ordinal='11' />
+                  <column datatype='string' name='Android_Ver' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Android Version'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column caption='Android Ver' datatype='string' name='[Android_Ver]' role='dimension' type='nominal' />
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column caption='Content Rating' datatype='string' name='[Content_Rating]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Android_Ver]' derivation='None' name='[none:Android_Ver:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Content_Rating]' derivation='None' name='[none:Content_Rating:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Android_Ver:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]' field-type='quantitative' max='1164' min='-4' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Content_Rating:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Android_Ver:nk]</rows>
+        <cols>([federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Type:nk] * [federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk])</cols>
+      </table>
+      <simple-id uuid='{7452D9FB-4ECC-4C88-B97F-58CE97E59170}' />
+    </worksheet>
+    <worksheet name='App size vs Installs'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column caption='Million' datatype='string' name='[Calculation_1347702252129730565]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF SUM([Installs]) &gt;= 1000000000 THEN&#13;&#10;    STR(ROUND(SUM([Installs]) / 1000000000, 2)) + &quot; B&quot;&#13;&#10;ELSE&#13;&#10;    STR(ROUND(SUM([Installs]) / 1000000, 2)) + &quot; M&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Installs]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Size]' role='measure' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Installs]' derivation='Sum' name='[sum:Installs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Size]' derivation='Sum' name='[sum:Size:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1347702252129730565]' derivation='User' name='[usr:Calculation_1347702252129730565:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;ART_AND_DESIGN&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;AUTO_AND_VEHICLES&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;BEAUTY&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;BOOKS_AND_REFERENCE&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;BUSINESS&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;COMICS&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;COMMUNICATION&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;DATING&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;EDUCATION&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;ENTERTAINMENT&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;EVENTS&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;FAMILY&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;FINANCE&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;FOOD_AND_DRINK&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;GAME&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;HEALTH_AND_FITNESS&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;HOUSE_AND_HOME&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;LIBRARIES_AND_DEMO&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;LIFESTYLE&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;MAPS_AND_NAVIGATION&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;MEDICAL&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;NEWS_AND_MAGAZINES&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;PARENTING&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;PERSONALIZATION&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;PHOTOGRAPHY&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;PRODUCTIVITY&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;SHOPPING&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;SOCIAL&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;SPORTS&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;TOOLS&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;TRAVEL_AND_LOCAL&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;VIDEO_PLAYERS&quot;' />
+              <groupfilter function='member' level='[none:Category:nk]' member='&quot;WEATHER&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' />
+              <text column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[usr:Calculation_1347702252129730565:nk]' />
+              <text column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='0.73563534021377563' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Installs:qk]</rows>
+        <cols>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Size:qk]</cols>
+      </table>
+      <simple-id uuid='{A1CA6BA9-FEA2-4427-80E5-0E864CB47F0B}' />
+    </worksheet>
+    <worksheet name='Apps by Category'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]</rows>
+        <cols>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]</cols>
+      </table>
+      <simple-id uuid='{64B62642-81BD-475D-ACDD-F5FE2360A43F}' />
+    </worksheet>
+    <worksheet name='Average Rating by Category'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column-instance column='[Rating]' derivation='Avg' name='[avg:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[avg:Rating:qk]' included-values='in-range-or-null'>
+            <min>3.9707692307692306</min>
+            <max>4.435555555555557</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[avg:Rating:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[avg:Rating:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[avg:Rating:qk]' field-type='quantitative' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-align' value='auto' />
+            <format attr='vertical-align' value='auto' />
+            <format attr='border-width' scope='cols' value='0' />
+            <format attr='border-style' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' value='#ffffff' />
+            <format attr='band-color' scope='rows' value='#ddebf0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' value='auto' />
+            <format attr='vertical-align' value='auto' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]</rows>
+        <cols>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[avg:Rating:qk]</cols>
+      </table>
+      <simple-id uuid='{0D35FF9E-2501-47C7-BEAB-64B1CF60C2FD}' />
+    </worksheet>
+    <worksheet name='Content Rating Distribution'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column caption='Content Rating' datatype='string' name='[Content_Rating]' role='dimension' type='nominal' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Content_Rating]' derivation='None' name='[none:Content_Rating:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Content_Rating:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]</rows>
+        <cols>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Content_Rating:nk]</cols>
+      </table>
+      <simple-id uuid='{76E3A0C8-25E8-456D-A040-C77D2E90AAFE}' />
+    </worksheet>
+    <worksheet name='Distribution of Ratings'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column aggregation='None' caption='Rating (bin)' datatype='integer' name='[Rating (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='-1' formula='[Rating]' peg='0' size='0.5' />
+            </column>
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[App]' derivation='None' name='[none:App:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rating (bin)]' derivation='None' name='[none:Rating (bin):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:App:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.637182354927063' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]</rows>
+        <cols>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Rating (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{5B799123-2AC6-49E4-BFF0-D7C4F9D26337}' />
+    </worksheet>
+    <worksheet name='Free vs Paid Apps'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]' />
+              <text column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Type:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{4D9FEC4C-7555-47B2-87BB-923DEFA5B962}' />
+    </worksheet>
+    <worksheet name='Installs by Category'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Installs]' role='measure' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Installs]' derivation='Sum' name='[sum:Installs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Installs:qk]' />
+              <color column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Installs:qk]' />
+              <text column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9EE214F7-1226-4FBE-8B94-85BA7B04410F}' />
+    </worksheet>
+    <worksheet name='Price vs Installs'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Installs]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Installs]' derivation='Sum' name='[sum:Installs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Price:qk]' field-type='quantitative' max='924.06184515655173' min='-21.96653120039052' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Installs:qk]' field-type='quantitative' max='22668797829' min='-650689803' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' />
+              <text column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.53773480653762817' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Installs:qk]</rows>
+        <cols>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Price:qk]</cols>
+      </table>
+      <simple-id uuid='{4D8F3D3E-C7AA-47CA-965F-D2C191C2CB54}' />
+    </worksheet>
+    <worksheet name='Rating vs Reviews'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Google Play Store)' name='federated.1vje0ya0am9wrf154lp5g1kklk5c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vje0ya0am9wrf154lp5g1kklk5c'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Reviews]' role='measure' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rating]' derivation='Sum' name='[sum:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reviews]' derivation='Sum' name='[sum:Reviews:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' />
+              <text column='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.69165748357772827' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Reviews:qk]</rows>
+        <cols>[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Rating:qk]</cols>
+      </table>
+      <simple-id uuid='{963B53E2-0153-4433-BCF0-7CEF08110A90}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Google Apps D1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='33333' id='10' name='Apps by Category' w='33231' x='62000' y='4727' />
+        <zone h='33333' id='11' name='Free vs Paid Apps' w='33231' x='6308' y='3879' />
+        <zone h='33333' id='12' name='Average Rating by Category' w='33231' x='3231' y='24485' />
+        <zone h='33333' id='15' name='Distribution of Ratings' w='33231' x='4769' y='58061' />
+        <zone h='33333' id='16' name='Installs by Category' w='33231' x='63538' y='63758' />
+        <zone h='33333' id='17' name='Price vs Installs' w='33231' x='44000' y='39030' />
+        <zone h='33333' id='18' name='Content Rating Distribution' w='33231' x='37385' y='23636' />
+        <zone h='11879' id='19' name='Content Rating Distribution' pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Content_Rating:nk]' type-v2='color' w='21538' x='38769' y='3515' />
+        <zone h='33333' id='20' name='Rating vs Reviews' w='33231' x='10769' y='8485' />
+        <zone h='82182' id='21' name='Rating vs Reviews' pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' type-v2='color' w='26615' x='44000' y='8485' />
+      </zones>
+      <devicelayouts>
+        <devicelayout active='true' name='Desktop'>
+          <size sizing-mode='automatic' />
+          <zones>
+            <zone h='14352' id='11' name='Free vs Paid Apps' w='10833' x='2344' y='30370' />
+            <zone h='24907' id='17' name='Price vs Installs' w='23802' x='23229' y='31574' />
+            <zone h='20185' id='18' name='Content Rating Distribution' w='20365' x='24323' y='10000' />
+            <zone h='24907' id='16' name='Installs by Category' w='24323' x='2031' y='5648' />
+            <zone h='24907' id='15' name='Distribution of Ratings' w='23802' x='47656' y='33426' />
+            <zone h='22685' id='10' name='Apps by Category' w='20938' x='46667' y='6019' />
+            <zone h='24907' id='12' name='Average Rating by Category' w='23802' x='9167' y='65463' />
+            <zone h='24907' id='20' name='Rating vs Reviews' w='23802' x='39896' y='67037' />
+          </zones>
+        </devicelayout>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2450' minheight='2450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98060' id='22' param='vert' type-v2='layout-flow' w='97538' x='1231' y='970'>
+                <zone fixed-size='280' h='33333' id='11' is-fixed='true' name='Free vs Paid Apps' w='33231' x='6308' y='3879'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='10' is-fixed='true' name='Apps by Category' w='33231' x='62000' y='4727'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='20' is-fixed='true' name='Rating vs Reviews' w='33231' x='10769' y='8485'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='82182' id='21' name='Rating vs Reviews' pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' type-v2='color' w='26615' x='44000' y='8485'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='18' is-fixed='true' name='Content Rating Distribution' w='33231' x='37385' y='23636'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='11879' id='19' name='Content Rating Distribution' pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Content_Rating:nk]' type-v2='color' w='21538' x='38769' y='3515'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='12' is-fixed='true' name='Average Rating by Category' w='33231' x='3231' y='24485'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='17' is-fixed='true' name='Price vs Installs' w='33231' x='44000' y='39030'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='15' is-fixed='true' name='Distribution of Ratings' w='33231' x='4769' y='58061'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33333' id='16' is-fixed='true' name='Installs by Category' w='33231' x='63538' y='63758'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{11F6F742-6274-457B-8636-54DA25C0BFDD}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Apps by Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{31463484-DAA6-4606-B958-EDC8C5462CB7}' />
+    </window>
+    <window class='worksheet' name='Average Rating by Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1995A268-CBDD-41A9-A99F-A66975CD824D}' />
+    </window>
+    <window class='worksheet' name='Distribution of Ratings'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:App:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B3A40931-52C8-4C1D-863C-6C039838D635}' />
+    </window>
+    <window class='worksheet' name='Rating vs Reviews'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{79FFAA56-26AB-45F5-B963-1F22B49E3F55}' />
+    </window>
+    <window class='worksheet' name='Installs by Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[sum:Installs:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F16D00F1-119B-486C-A173-3DC98E23D859}' />
+    </window>
+    <window class='worksheet' name='App size vs Installs'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{855003D3-C54E-48BD-AC2F-4C62FE0014C1}' />
+    </window>
+    <window class='worksheet' name='Free vs Paid Apps'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[ctd:App:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8433AAC9-6FFB-416F-9CC9-96CD36F037D1}' />
+    </window>
+    <window class='worksheet' name='Price vs Installs'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C6E9E790-7AFE-4542-B99D-93CB794C41CF}' />
+    </window>
+    <window class='worksheet' name='Content Rating Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Content_Rating:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4F5517E6-D686-4F6B-9837-7BF1D37249C6}' />
+    </window>
+    <window class='worksheet' name='Android Version'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vje0ya0am9wrf154lp5g1kklk5c].[none:Content_Rating:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0BC1FAF3-9589-4E85-9EB3-1291B12D17A5}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Google Apps D1'>
+      <viewpoints>
+        <viewpoint name='Apps by Category'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Rating by Category' />
+        <viewpoint name='Content Rating Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Distribution of Ratings'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Free vs Paid Apps' />
+        <viewpoint name='Installs by Category' />
+        <viewpoint name='Price vs Installs'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Rating vs Reviews'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='12' />
+      <simple-id uuid='{CCEC2EDC-273C-4008-9DE4-32919A1ADB88}' />
+    </window>
+  </windows>
+</workbook>

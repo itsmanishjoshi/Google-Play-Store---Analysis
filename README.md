@@ -1,5 +1,15 @@
  # Project Title
- Analysis of Google Play Store Apps: Insights into Ratings, Downloads, and App Performance
+In-Depth Comprehensive Analysis of Google Play Store Applications: Unveiling Insights into User Ratings, Download Trends, and Critical App Performance Metrics for Enhanced Understanding of Market Dynamics
+
+
+## Table of contents 
+- [Objective](#objective)
+- [Scope of work](#scopeofwork)
+- [Data Source](#datasource)
+- [Tools and Technologies](#Toolsandtech)
+- [Data Collection & Preprocessing](#datacollectionandprocessing)
+- [Data Visualisation](#datavisualisation)
+- [Conclusion](#conclusion)
 
 ## 1. Objective
 The primary goal of this project is to analyze Google Play Store app data to identify key factors that influence app performance, including downloads, ratings, revenue, and user engagement. This analysis will provide insights into app market dynamics, helping developers, marketers, and stakeholders optimize app design, pricing, and marketing strategies.

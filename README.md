@@ -12,7 +12,7 @@
 
 
 ## Project Overview
-In-Depth Comprehensive Analysis of Google Play Store Applications: Unveiling Insights into User Ratings, Download Trends, and Critical App Performance Metrics for Enhanced Understanding of Market Dynamics.
+This project offers a thorough analysis of applications available on the Google Play Store, focusing on user ratings, download trends, and essential performance metrics. By utilizing advanced data analytics techniques, we aim to unveil insights that enhance our understanding of market dynamics and user preferences. The findings will provide valuable information for app developers and marketers, enabling data-driven decision-making to improve application quality and increase user engagement. This comprehensive analysis serves as a strategic resource for navigating the competitive landscape of mobile applications.
 
 ##  Objective
 The primary goal of this project is to analyze Google Play Store app data to identify key factors that influence app performance, including downloads, ratings, revenue, and user engagement. This analysis will provide insights into app market dynamics, helping developers, marketers, and stakeholders optimize app design, pricing, and marketing strategies.
@@ -30,7 +30,7 @@ The project will focus on key performance metrics such as:
 - Impact of Updates
 
 ##  Data Source
-Google Play Store Dataset: A publicly available dataset from [kaggle](https://www.kaggle.com) with features such as app name, category, rating, reviews, size, installs, type (free/paid), price, content rating, genres, last update, and current version. [Download here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
+Google Play Store Dataset: A publicly available dataset from kaggle with features such as app name, category, rating, reviews, size, installs, type (free/paid), price, content rating, genres, last update, and current version. [Download here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
 
 
 ##  Tools and Technologies
@@ -45,7 +45,7 @@ Matplotlib/Seaborn: For visualizations.
 ##  Data Collection and Preprocessing
 
 - ### Data Collection
-The dataset utilized for this analysis has been sourced from Kaggle, a prominent platform for data science and machine learning resources. Below is a preview of the dataset,
+The dataset utilized for this analysis has been sourced from [Kaggle](https://www.kaggle.com/), a prominent platform for data science and machine learning resources. Below is a preview of the dataset,
 
 ![Google Play Store Raw Data .img](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Excel%20Data/Data%20Excel%20ss.jpg)
 

@@ -47,7 +47,7 @@ Matplotlib/Seaborn: For visualizations.
 - ### Data Collection
 The dataset utilized for this analysis has been sourced from [Kaggle](https://www.kaggle.com/), a prominent platform for data science and machine learning resources. Below is a preview of the dataset,
 
-![Google Play Store Raw Data .img](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Excel%20Data/Data%20Excel%20ss.jpg)
+![Google Play Store Raw Data .img](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/1.%20Data/Data%20-%20img.jpg)
 
 - ### loading Data into Python:
 Importing the required library
@@ -59,7 +59,7 @@ df= pd.read_csv("Google_Play_Store.csv")
 df.head()
 
 ```
-![df.head()](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/df.head().png)
+![df.head()](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/df.head().png)
 
 - ### Data Cleaning and processing
 
@@ -115,7 +115,7 @@ plt.xlabel("Apps")
 plt.ylabel("Price $")
 plt.show()
 ```
-![Apps & Price](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Box%20Plot%20-%20Apps%20%26%20Price.png)
+![Apps & Price](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Box%20Plot%20-%20Apps%20%26%20Price.png)
 
  -  During the analysis, we observed that there are a few apps priced significantly higher than $50.
 By narrowing the analysis to apps priced under $50, we aim to provide insights that are more actionable and applicable to a broader user base.
@@ -125,7 +125,7 @@ Therefore Apps costing less than 50$:
 df = df[df.Price < 50]
 ```
 
-![plt.show](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Box%20Plot%20-%20Price%20less%20than%2050.png)
+![plt.show](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Box%20Plot%20-%20Price%20less%20than%2050.png)
 
 ### Insights:
 - Free apps generally attract more downloads.
@@ -144,7 +144,7 @@ plt.ylabel("No of Apps")
 plt.show
 ```
 
-![Reviews](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Hist%20-Reviews.png)
+![Reviews](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Hist%20-Reviews.png)
 Note: Each bin in x axis contains values in 200k, whereas the y axis contains in Thousands.
 
 ### Insights:
@@ -165,7 +165,7 @@ plt.ylabel("No of Apps")
 plt.show
 plt.show
 ```
-![Size](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Hist%20-%20Size.png)
+![Size](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Hist%20-%20Size.png)
 
 ### Insights:
 
@@ -182,7 +182,7 @@ plt.xlabel("Ratings")
 plt.ylabel("No of Apps")
 plt.show()
 ```
-![Rating](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Hist%20-%20Rating.png)
+![Rating](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Hist%20-%20Rating.png)
 
 ### Insights:
 
@@ -206,7 +206,7 @@ plt.xlabel("Installs")
 plt.ylabel("Category")
 plt.show()
 ```
-![Content Rating Distribution](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Bar%20-%20Content%20Rating.png)
+![Content Rating Distribution](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Bar%20-%20Content%20Rating.png)
 
 ### Insights:
 
@@ -224,7 +224,7 @@ plt.xlabel("Version")
 plt.ylabel("No of Apps")
 plt.show()
 ```
-![Android Version](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Bar-%20Android%20ver.png)
+![Android Version](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Bar-%20Android%20ver.png)
 
 ### Insights:
 
@@ -242,7 +242,7 @@ plt.show()
 sns.jointplot(x="Size", y="Rating", data=df)
 plt.show()
 ```
-![Joint - Size & Rating](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Joint%20-%20Size%20%26%20Rating.png)
+![Joint - Size & Rating](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Joint%20-%20Size%20%26%20Rating.png)
 
 ### Insights:
 
@@ -259,7 +259,7 @@ plt.show()
 sns.regplot(x="Price", y='Rating', data=df)
 plt.show()
 ```
-![Price & Rating](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Reg%20-%20Price%20%26%20Rating.png)
+![Price & Rating](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Reg%20-%20Price%20%26%20Rating.png)
 
 ### Insights:
 
@@ -277,7 +277,7 @@ plt.show()
 sns.pairplot(df[["Reviews", "Size", "Rating", "Price"]])
 plt.show()
 ```
-![Pair Plot](https://github.com/itsmanishjoshi/Google_Play_Store-Analysis/blob/main/Python/ScreenShots/Pair%20Plot.png)
+![Pair Plot](https://github.com/itsmanishjoshi/Google-Play-Store/blob/main/2.%20Python/images/Pair%20Plot.png)
 
 ### Insights:
 
